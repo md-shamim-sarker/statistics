@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #eee9d8;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+h1 {
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 15px 0 15px 0;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Arial, sans-serif';
+}
+
+.note {
+    background-color: #e3e5e9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ul {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.basic a, .descriptive a, .inferential a {
+    display: block;
+    text-decoration: none;
+    background-color: #6A86C3;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.basic a:hover, .descriptive a:hover, .inferential a:hover {
+    background-color: #4469A6;
+}
+
+.basic a:visited {
+    background-color: #0F4A92;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+    }
+}

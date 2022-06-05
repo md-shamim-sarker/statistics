@@ -120,6 +120,32 @@ a {
 }
 /* Back, Home & Forward Button */
 
+/* table style */
+.ss-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ss-table th, .ss-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ss-table th {
+    background-color: #6A86C3;
+    color: white;
+}
+
+.ss-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ss-table tr:hover {
+    background-color: #ddd;
+}
+
+/* table style */
+
 hr {
     border: 1px solid rgb(209, 199, 199);
     margin: 20px;

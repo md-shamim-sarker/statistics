@@ -23,6 +23,8 @@ body {
     margin-right: auto;
     max-width: 300px;
     min-height: 200px;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 10px;
 }
 
 h1 {
@@ -32,6 +34,11 @@ h1 {
 
 h2 {
     padding: 15px 0 15px 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding: 10px 0 10px 0;
     text-transform: uppercase;
 }
 
@@ -77,6 +84,7 @@ a {
     margin: 10px;
     text-align: center;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 /* Back, Home & Forward Button */
@@ -87,18 +95,17 @@ a {
 }
 
 .back, .home, .forward {
-    flex: 33%;
+    flex: 35%;
     background-color: #6A86C3;
-    max-width: 200px;
+    max-width: 228px;
     padding: 5px;
     margin: 10px;
-    text-align: center;
     border-radius: 5px;
 }
 
 .back a, .home a, .forward a {
-    display: block;
-    font-size: 20px; 
+    display: block flex;
+    font-size: 20px;
 }
 /* Back, Home & Forward Button */
 
@@ -108,6 +115,11 @@ a {
 
 .basic a:visited {
     background-color: #0F4A92;
+}
+
+hr {
+    border: 1px solid rgb(209, 199, 199);
+    margin: 20px;
 }
 
 @media only screen and (max-width: 900px) {

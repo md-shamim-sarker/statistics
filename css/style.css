@@ -17,6 +17,14 @@ body {
     padding: 10px;
 }
 
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    min-height: 200px;
+}
+
 h1 {
     padding: 20px 0 20px 0;
     text-transform: uppercase;
@@ -58,11 +66,11 @@ ul {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .basic a, .descriptive a, .inferential a {
     display: block;
-    text-decoration: none;
     background-color: #6A86C3;
     width: 200px;
     padding: 10px;
@@ -70,6 +78,28 @@ a {
     text-align: center;
     border-radius: 20px;
 }
+
+/* Back, Home & Forward Button */
+.flex-container {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.back, .home, .forward {
+    flex: 33%;
+}
+
+.back a, .home a, .forward a {
+    display: block;
+    background-color: #6A86C3;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* Back, Home & Forward Button */
 
 .basic a:hover, .descriptive a:hover, .inferential a:hover {
     background-color: #4469A6;
@@ -82,6 +112,7 @@ a {
 @media only screen and (max-width: 900px) {
     .container {
         width: 100%;
+        margin-top: 0;
     }
 
     .grid-container {

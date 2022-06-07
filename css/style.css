@@ -167,3 +167,8 @@ hr {
         grid-template-columns: auto;
     }
 }
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+}

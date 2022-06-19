@@ -121,26 +121,27 @@ a {
 /* Back, Home & Forward Button */
 
 /* table style */
-.ss-table {
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.ss-table th, .ss-table td {
+table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
 }
 
-.ss-table th {
+table th {
     background-color: #6A86C3;
     color: white;
 }
 
-.ss-table tr:nth-child(even) {
+table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.ss-table tr:hover {
+table tr:hover {
     background-color: #ddd;
 }
 

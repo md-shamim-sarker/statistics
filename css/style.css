@@ -52,6 +52,14 @@ p {
     background-color: #e3e5e9;
     padding: 20px;
     border-radius: 20px;
+    /* border-left: 4px solid yellow; */
+}
+
+.value {
+    background-color: #d3d2d8;
+    padding: 20px;
+    /* border-radius: 20px; */
+    border-left: 4px solid blue;
 }
 
 ul {
@@ -76,7 +84,10 @@ a {
     text-decoration: none;
 }
 
-.basic a, .descriptive a, .inferential a, .reference a {
+.basic a,
+.descriptive a,
+.inferential a,
+.reference a {
     display: block;
     background-color: #6A86C3;
     width: 150px;
@@ -105,7 +116,9 @@ a {
     gap: 20px;
 }
 
-.back, .home, .forward {
+.back,
+.home,
+.forward {
     flex: 33%;
     background-color: #6A86C3;
     max-width: 228px;
@@ -114,10 +127,13 @@ a {
     border-radius: 5px;
 }
 
-.back a, .home a, .forward a {
+.back a,
+.home a,
+.forward a {
     display: block flex;
     font-size: 20px;
 }
+
 /* Back, Home & Forward Button */
 
 /* table style */
@@ -126,7 +142,8 @@ table {
     border-collapse: collapse;
 }
 
-table th, table td {
+table th,
+table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
@@ -158,10 +175,13 @@ hr {
         margin-top: 0;
     }
 
-    .basic a, .descriptive a, .inferential a, .reference a {
-       
+    .basic a,
+    .descriptive a,
+    .inferential a,
+    .reference a {
+
         width: 300px;
-        
+
     }
 
     .grid-container {
